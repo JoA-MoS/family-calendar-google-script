@@ -1,0 +1,8 @@
+.DS_Store
+
+# Because of a bug in clasp this needs to be added like this
+node_modules/**
+node_modules/**/.*/**
+node_modules/**/.*
+
+script.secrets-example.ts
